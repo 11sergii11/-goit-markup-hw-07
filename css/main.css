@@ -182,7 +182,6 @@ a {
   fill: currentColor;
   margin-right: 10px;
 }
-
 .heder-icon:hover {
   fill: currentColor;
 }
@@ -239,11 +238,9 @@ a {
   color: var(--main-body-color);
   cursor: pointer;
 }
-
 .order:hover {
   background-color: var(--buttom-second-color);
 }
-
 .order:focus {
   cursor: progress;
 }
@@ -478,9 +475,7 @@ a {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.links-img:hover,
-.links-img:focus {
+.links-img:hover, .links-img:focus {
   background-color: var(--buttom-second-color);
   color: var(--main-body-color);
 }

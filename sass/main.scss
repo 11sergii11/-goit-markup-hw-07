@@ -163,10 +163,9 @@ a {
 .heder-icon {
     fill: currentColor;
     margin-right: 10px;
-}
-
-.heder-icon:hover {
+&:hover {
     fill: currentColor;
+}
 }
 
 /* Услуги для бизнеса */
@@ -220,14 +219,13 @@ a {
     letter-spacing: 0.06em;
     color: var(--main-body-color);
     cursor: pointer;
-}
 
-.order:hover {
+    &:hover {
     background-color: var(--buttom-second-color);
 }
-
-.order:focus {
+    &:focus {
     cursor: progress;
+}
 }
 
 .visually-hidden {
@@ -426,12 +424,11 @@ a {
     transition-property: background-color, color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.links-img:hover,
-.links-img:focus {
+   
+    &:hover, &:focus {
     background-color: var(--buttom-second-color);
     color: var(--main-body-color);
+}
 }
 
 .icons {
