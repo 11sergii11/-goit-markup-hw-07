@@ -1,3 +1,10 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
 :root {
   --card-team-gap: 30px;
   --card-projects-gap: 30px;
