@@ -76,6 +76,25 @@ a {
   border-bottom: 1px solid #ececec;
 }
 
+.logo {
+  display: block;
+  font-family: "Raleway";
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--main-brand-color);
+}
+
+.logo--bottom {
+  margin-bottom: 20px;
+}
+
+.logo__footer-color {
+  color: var(--main-body-color);
+}
+
 .logo--right {
   margin-right: 93px;
 }
@@ -351,10 +370,6 @@ a {
 }
 
 /* КОМАНДА */
-.team {
-  background-color: var(--background-second-color);
-}
-
 .mishion {
   font-family: "Roboto";
   font-weight: 700;
@@ -367,6 +382,10 @@ a {
 
 .mishion--bottom {
   margin-bottom: 50px;
+}
+
+.team {
+  background-color: var(--background-second-color);
 }
 
 .team-box {
@@ -548,44 +567,23 @@ a {
           align-items: baseline;
 }
 
-.footer-contacts-info {
+.footer__contacts--right {
   margin-right: 70px;
 }
 
-.logo {
-  display: block;
-  font-family: "Raleway";
-  text-decoration: none;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: var(--main-brand-color);
-}
-
-.logo--bottom {
-  margin-bottom: 20px;
-}
-
-.logo__footer-color {
-  color: var(--main-body-color);
-}
-
-.footer-contacts-block {
+.footer__contacts-block {
   margin-bottom: 9px;
 }
 
-.footer-contacts {
+.footer__contacts-list {
   margin-bottom: 9px;
 }
 
-.footer-contacts:last-child {
+.footer__contacts-list:last-child {
   margin-bottom: 0;
 }
 
-.adress {
-  font-family: "Roboto";
-  font-weight: 400;
+.footer__contacts-adress {
   font-style: normal;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -598,11 +596,9 @@ a {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.e-adress {
+.footer__contacts-link {
   color: var(--e-adress-color);
   font-style: normal;
-  font-family: "Roboto";
-  font-weight: 400;
   line-height: 1.71;
   letter-spacing: 0.03em;
   -webkit-transition-property: color;
@@ -613,10 +609,10 @@ a {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.adress:hover,
-.e-adress:hover,
-.e-adress:focus,
-.adress:focus {
+.footer__contacts-adress:hover,
+.footer__contacts-link:hover,
+.footer__contacts-link:focus,
+.footer__contacts-adress:focus {
   color: var(--main-brand-color);
 }
 
@@ -970,8 +966,8 @@ a {
   border: 1px solid rgba(0, 0, 0, 0.1);
   color: #000;
   background-color: var(--main-body-color);
-  -webkit-transition-property: background color;
-  transition-property: background color;
+  -webkit-transition-property: fill;
+  transition-property: fill;
   -webkit-transition-duration: 250ms;
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
